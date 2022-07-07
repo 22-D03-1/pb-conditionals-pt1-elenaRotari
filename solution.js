@@ -27,6 +27,56 @@ const b = 12;
 const c = 6;
 console.log(Math.max(a, b, c));
 console.log(Math.max(int1, int2, int3));
+const max1 = Math.max(a, b, c);
+const max2 = Math.max(int1, int2, int3);
+if (a === max1) {
+  console.log(a);
+} else if (b === max1) {
+  console.log(b);
+} else {
+  console.log(c);
+}
+if (int1 === max2) {
+  console.log(int1);
+} else if (int2 === max2) {
+  console.log(int2);
+} else {
+  console.log(int3);
+}
+// if (a - b > 0) {
+//   if (a - c > 0) {
+//     console.log("a is larger");
+//   } else if (b - c > 0) {
+//     console.log("b is larger");
+//   }
+// } else if (b - a > 0) {
+//   if (b - c > 0) {
+//     console.log("b is larger");
+//   } else {
+//     console.log("c is larger");
+//   }
+// } else if (c - a > 0) {
+//   if (c - b > 0) {
+//     console.log("c is larger");
+//   }
+// }
+// if (int1 - int2 > 0) {
+//   if (int1 - int3 > 0) {
+//     console.log("int1 is larger");
+//   } else if (int2 - c > 0) {
+//     console.log("int2 is larger");
+//   }
+// } else if (int2 - int1 > 0) {
+//   if (int2 - int3 > 0) {
+//     console.log("int2 is larger");
+//   } else {
+//     console.log("int3 is larger");
+//   }
+// } else if (int3 - int1 > 0) {
+//   if (int3 - int2 > 0) {
+//     console.log("int3 is larger");
+//   }
+// }
 
 //4
 
